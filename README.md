@@ -1,14 +1,19 @@
 # Todolib
 Todo library app made with [odin](https://github.com/odin-lang/Odin) / [raylib](https://github.com/raysan5/raylib) made because I wanted a simple and efficient way to organize todo lists - infinitely and focused
 
-# [Preview](https://www.youtube.com/watch?v=FZac4pGxHeY)
+# Preview
+[youtube](https://www.youtube.com/watch?v=FZac4pGxHeY)
+![gif](https://github.com/Skytrias/todolib/blob/master/preview.gif)
 
 # Features
 * Infinite Todo lists
 * Fast movement
 * Fast editing
-* Autosave / Autoload todo file 
+* Autosave / Autoload todo file
 * Colorschemes
+
+# Custom Font
+place a `.tff` file next to the `.exe` application and rename the `.ttf` file to `font.ttf`
 
 # Keyboard control
 * Basics:
@@ -30,3 +35,6 @@ Todo library app made with [odin](https://github.com/odin-lang/Odin) / [raylib](
     * CTRL + I = invert text color *(will be saved)*
     * ALT + RIGHT = next colorscheme *(will be saved)*
     * ALT + LEFT = previous colorscheme *(will be saved)*
+
+# Release.bat
+run this to create a non-console app with optimizations on, used when shipping the app
