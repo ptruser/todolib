@@ -36,5 +36,10 @@ place a `.tff` file next to the `.exe` application and rename the `.ttf` file to
     * ALT + RIGHT = next colorscheme *(will be saved)*
     * ALT + LEFT = previous colorscheme *(will be saved)*
 
+# Source
+download the latest [odin release](https://github.com/odin-lang/Odin)
+you require `https://github.com/kevinw/raylib-odin` to be in your `Odin/shared` path - i renamed some sources to make it easier on my life
+inside `todolib` folder the `raylib.dll` (on windows) has to exist, otherwhise linking errors will happen
+
 # Release.bat
 run this to create a non-console app with optimizations on, used when shipping the app
