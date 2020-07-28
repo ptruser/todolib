@@ -1,8 +1,7 @@
 # Todolib
 Todo library app made with [odin](https://github.com/odin-lang/Odin) / [raylib](https://github.com/raysan5/raylib) made because I wanted a simple and efficient way to organize todo lists - infinitely and focused
 
-# Preview
-[youtube](https://www.youtube.com/watch?v=FZac4pGxHeY)
+# [Preview](https://www.youtube.com/watch?v=FZac4pGxHeY)
 ![gif](https://github.com/Skytrias/todolib/blob/master/preview.gif)
 
 # Features
@@ -37,9 +36,9 @@ place a `.tff` file next to the `.exe` application and rename the `.ttf` file to
     * ALT + LEFT = previous colorscheme *(will be saved)*
 
 # Source
-download the latest [odin release](https://github.com/odin-lang/Odin)
-you require `https://github.com/kevinw/raylib-odin` to be in your `Odin/shared` path - i renamed some sources to make it easier on my life
-inside `todolib` folder the `raylib.dll` (on windows) has to exist, otherwhise linking errors will happen
+1. download the latest [odin release](https://github.com/odin-lang/Odin)
+2. you require `https://github.com/kevinw/raylib-odin` to be in your `Odin/shared` path - i renamed some sources to make it easier on my life
+3. inside `todolib` folder the `raylib.dll` (on windows) has to exist, otherwhise linking errors will happen
 
 # Release.bat
 run this to create a non-console app with optimizations on, used when shipping the app
